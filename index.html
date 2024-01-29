@@ -6,6 +6,9 @@
     <title>Demo Site</title>
 </head>
 <body>
+    <a href="blog.html">Go to Blog</a>
+    <hr>
+
     <!--Headings-->
     <h1>Heading One</h1>
     <h2>Heading One</h2>
@@ -74,11 +77,11 @@
     <form action="process.php" method="post">
         <div>
             <label for="fNname">First Name</label>
-            <input type="text" name="first-name">
+            <input type="text" name="first-name" placeholder="Enter your first name">
         </div>
         <div>
             <label for="lName">Last Name</label>
-            <input type="text" name="last-name">
+            <input type="text" name="last-name" value="Enter your last name"> <!--need js to change value-->
         </div>
         <br>
         <div>
@@ -108,9 +111,31 @@
             <label for="Birthday">Birthday:</label>
             <input type="date" name="birthday">
         </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
     </form>
 
+    <!--Button-->
+    <button>Click Me</button>  <!--needed js for functions-->
 
+    <br>
+    <!--Image-->
+    <!--provide a link to open image in browser-->
+    <a href="image/Sample.jpg">
+        <img src="image/Sample.jpg" alt="sample image" width="200">
+    </a>
+    
+    <!--Quotations-->
+
+    <blockquote cite="http://www.google.com">Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Dolores blanditiis quae, eos accusamus ut in tenetur doloribus
+    natus perferendis dolorem rem. Sint ad tempora est alias, quod deleniti fugiat 
+    obcaecati?
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awsome</p>
+
+    <p><cite>HTML</cite>only site</p> <!--italic style-->
 
 </body>
 </html>
